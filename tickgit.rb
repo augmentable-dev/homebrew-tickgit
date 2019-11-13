@@ -2,16 +2,16 @@
 class Tickgit < Formula
   desc "Tickets as config"
   homepage "https://augmentable.io/"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.4/tickgit_0.0.4_Darwin_x86_64.tar.gz"
-    sha256 "1982df29e109a913bf35475676b9f5d420a49a604c85753966dec8c566d5da78"
+    url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.5/tickgit_0.0.5_Darwin_x86_64.tar.gz"
+    sha256 "448811757d739774b57603e8af34156a098b8d37f6bdfbbf8a00a12525e1aa41"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.4/tickgit_0.0.4_Linux_x86_64.tar.gz"
-      sha256 "fd0c8c469eca26ec8a55706d2f86b707cca6370bfdb0ada554a28b6af3c7e5ae"
+      url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.5/tickgit_0.0.5_Linux_x86_64.tar.gz"
+      sha256 "74d1af8f12e67eba6b5f5e0d84c858e815b57a28ae7e4fdd11b324567996042a"
     end
   end
 

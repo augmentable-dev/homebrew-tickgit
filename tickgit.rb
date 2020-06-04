@@ -2,16 +2,16 @@
 class Tickgit < Formula
   desc "Surface TODO comments in any codebase"
   homepage "https://www.tickgit.com/"
-  version "0.0.12"
+  version "0.0.13"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.12/tickgit_0.0.12_Darwin_x86_64.tar.gz"
-    sha256 "aea0d25e890719178496d66a889a2fc25a61e9f6bf3ff35933a3ddef7ed9cd23"
+    url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.13/tickgit_0.0.13_Darwin_x86_64.tar.gz"
+    sha256 "0c04db0c2a1ba593edf6f89aaa9f6673e9d2385bd29d6f377c9869817f662c34"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.12/tickgit_0.0.12_Linux_x86_64.tar.gz"
-      sha256 "ac3edc472f7c8c46a10cdd848f13c273fcdcc1e968e91d273d9338c9a1ce0a0f"
+      url "https://github.com/augmentable-dev/tickgit/releases/download/v0.0.13/tickgit_0.0.13_Linux_x86_64.tar.gz"
+      sha256 "6adeafdd006e95b1b6ab505603241b800cef0590d2c8aa39428df3a091b25f09"
     end
   end
 
